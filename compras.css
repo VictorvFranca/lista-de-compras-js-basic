@@ -1,0 +1,39 @@
+#compras{
+      height: 87.9vh;
+      background-image: url(../imagens/compras.png);
+     }
+     /*
+     .col1{
+      background:rgba(255, 255, 25loHUJ5, 0.3);
+      border-radius: 1%;
+      width: 50vw;
+     }
+     */
+
+.input{
+      margin: 1vh;
+     }
+
+.col2{
+      background-color: pink;
+     }
+
+.label{
+     background-color: black;
+     color: white;
+     font-size: 5vh;
+     font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+@media print{
+
+      .col1{
+            display: none;
+      }
+      .col2{
+            color:pink;
+      }
+
+
+}
